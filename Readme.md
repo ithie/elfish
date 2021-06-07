@@ -13,25 +13,6 @@
 
 tbd.
 
-```typescript
-export const ContractSelection = (): JSX.Element => {
-  return (
-    <Module
-      {...{
-        baseUrl: '/erleben/api/contract-selection-service/v1/contract/selection/{interactionId}',
-        ContentWrapper: ContractSelectionWrapper,
-        trackingNames: {
-          standard: 'contract-selection',
-          noSMUE: 'contract-selection-no-smue',
-          notMigratable: 'contract-selection-not-migratable',
-        },
-        baseId: 'contract-selection',
-      }}
-    />
-  );
-};
-```
-
 ### Prerequesits
 
 #### Basic usage at a glance
